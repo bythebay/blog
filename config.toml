@@ -1,0 +1,16 @@
+baseURL = "http://blog.bythebay.io/"
+languageCode = "en-us"
+title = "Scale By the Bay"
+theme = "hugo-paper"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Scale by the bay"
+  url = "http://scale.bythebay.io/"
+  weight = 5
+
