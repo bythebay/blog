@@ -1,4 +1,4 @@
-baseURL = "http://blog.bythebay.io/"
+baseURL = "http://blog.bythebay.io.s3-website-us-west-1.amazonaws.com/"
 languageCode = "en-us"
 title = "Scale By the Bay"
 theme = "hugo-paper"
