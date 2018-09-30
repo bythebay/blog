@@ -34,7 +34,7 @@ merge PR and publish to our site.
 
 # To Do 
 
-- [] Add Disqus comments to each blog
+- [ ] Add Disqus comments to each blog
 
 # Got a question or need help
 - Use the issue tracker on Github to ask your question ideally
