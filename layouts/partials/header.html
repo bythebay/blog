@@ -39,14 +39,9 @@
 
 <body class="{{if eq .Kind `page` }}single{{else}}list{{ if .IsHome }} home{{ end }}{{end}}">
   <header class="header">
-    <!-- <h1 class="title"><a href="{{.Site.BaseURL}}"><img class="logo" src="/img/scale_bythebay_3.png" alt="{{ .Site.Params.title }}" width="200" height="200"/></a></h1> -->
-    <!-- {{ if .IsHome }}
-      <h1 class="title"><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a></h1>
-      {{ else }}
-      <p class="title"><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a></p>
-      {{ end }}
-      -->
+    <h1 class="logo"><a href="{{.Site.BaseURL}}">
     <img class="logo" src="{{.Site.BaseURL}}img/scale_bythebay_4.png" alt="{{ .Site.Title }}" />
+        </a></h1>
     <button class="menu-toggle" type="button"></button>
     <nav class="menu">
       <ul>

@@ -104,7 +104,7 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  height: 85px;
+  height: 100px;
   padding-right: 30px;
   line-height: 200px;
 }
