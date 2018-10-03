@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +15,7 @@
     {{- end }} - {{ end }}
     {{- .Site.Title -}}
   </title>
-  
+
   <!-- Meta -->
   {{- if eq .Kind "page" }}
   <meta name="description" content="{{ .Summary }}">
@@ -35,14 +36,17 @@
   <!-- RSS -->
   <link rel="alternate" type="application/atom+xml" href="{{.Site.BaseURL}}index.xml" title="{{ .Site.Title }}">
 </head>
+
 <body class="{{if eq .Kind `page` }}single{{else}}list{{ if .IsHome }} home{{ end }}{{end}}">
-<header class="header">
+  <header class="header">
     <!-- <h1 class="title"><a href="{{.Site.BaseURL}}"><img class="logo" src="/img/scale_bythebay_3.png" alt="{{ .Site.Params.title }}" width="200" height="200"/></a></h1> -->
-    {{ if .IsHome }}
-    <h1 class="title"><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a></h1>
-    {{ else }}
-    <p class="title"><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a></p>
-    {{ end }}
+    <!-- {{ if .IsHome }}
+      <h1 class="title"><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a></h1>
+      {{ else }}
+      <p class="title"><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a></p>
+      {{ end }}
+      -->
+    <img class="logo" src="{{.Site.BaseURL}}img/scale_bythebay_4.png" alt="{{ .Site.Title }}" />
     <button class="menu-toggle" type="button"></button>
     <nav class="menu">
       <ul>
